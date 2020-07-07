@@ -1,0 +1,72 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel{
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.carousel-inner img{
+    margin-left: 50px;
+}
+.header{
+    margin-top: 30px;
+}
+.navbar{
+    float: right;
+}
+.price{
+    color:  black;
+}
+.buy-button{
+    border: none;
+    padding: 10px 28px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.Smartphone, .laptop, .pc{
+    margin-bottom: 80px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 5px;
+    text-align: center;
+}   
+.card img{
+    margin-top: 30px;
+}
+#see-all{
+    float: right;
+    color: orange;
+}
+.Categories h2{
+    text-align: center;
+}
+.Categories h2:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 7px;
+     background-image: linear-gradient(to right,#FFD019, #FF9C35);
+    margin-left: 46%;
+    margin-top: 8px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+ 
+.img1 img{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    padding: 60px 50px;
+    border-radius: 8px;
+}
+.img2 img{
+    border: none;
+    box-shadow: 5px 5px 12px lightgray;
+    padding: 60px 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
