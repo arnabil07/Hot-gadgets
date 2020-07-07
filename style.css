@@ -2,13 +2,22 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.carousel{
+.carousel {
     margin-top: 30px;
     border-radius: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
 }
+ .middle-area{
+    margin: 0;
+    margin-bottom: 35px;
+ }
+
 .carousel-inner img{
-    margin-left: 50px;
+    margin-left: 90px;
 }
 .header{
     margin-top: 30px;
@@ -26,8 +35,14 @@ body{
     color: white;
     border-radius: 5px;
 }
-.Smartphone, .laptop, .pc{
+.Smartphone, .laptop{
     margin-bottom: 80px;
+}
+.Smartphone h2{
+    margin-bottom: 40px;
+}
+.laptop h2{
+    margin-bottom: 40px;
 }
 .card{
     border: none;
